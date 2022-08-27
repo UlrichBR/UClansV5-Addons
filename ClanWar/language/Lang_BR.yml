@@ -1,0 +1,188 @@
+COMUM:
+  player donthave clan: '%tag% <red>Este jogador não tem um Clan.'
+  gui error: '%tag% <red>Este menu contem um erro e não pode ser aberto.'
+  disabled function: '%tag% <red>Esta função esta desabilitada ou desligada.'
+  chan does not exists: '%tag% <red>Este Clan não existe.'
+  command by player: '%tag% <red>Este comando deve ser usado por um jogador.'
+  no permission: '%tag% <red>Você não tem permissão para isto.'
+  clan not found: '%tag% <red>Clan com esta TAG não existe.'
+  clan is your clan: '%tag% <red>Este é seu clan.'
+  clan is ally: '%tag% <red>Este clan já é um aliado.'
+  player in war: '%tag% <red>Você esta participando de uma guerra!'
+  this player in war: '%tag% <red>Este jogador esta participando de uma guerra!'
+  war pvp wait: '%tag% <red>O PVP é desligado na preparação.'
+  war command disabled: '%tag% <red>Este comando não pode ser usado em guerras.'
+  arena exists: '%tag% <red>Já existe uma arena com este nome.'
+  arena not exists: '%tag% <red>Não existe uma arena com este nome, user <aqua>/uclans listarenas <red>para ver todas.'
+  arena not exists player: '%tag% <red>Não existe uma arena com este nome.'
+  arena header: '<blue><bold>Lista de Arenas:'
+  arena format: ' <green>%num%° <gray>- <aqua>%id% <gray>- <aqua>%status%'
+  arena empty: ' <red>Sem arenas para mostrar.'
+  arena status true: ' <green>Ligado'
+  arena status false: ' <red>Desligado'
+  arena amount error: '%tag% <red>Esta quantidade é maior que o limite.'
+  kit nokit: <red>Sem Kit!
+  clan in war: '%tag% <red>Clan em guerra!'
+  clan war invite canceled: '%tag% <red>O Clan cancelou o desafio para a guerra!'
+  clan war invite success cancel: '%tag% <green>VocÊ cancelou o desafio com sucesso!'
+  gui kit empty: '%tag% <red>Não existem kits disponiveis'
+  clan war invite empty inventory: '%tag% <red>Esta guerra esta marcada para usar o kit <aqua>%kit_name% <red>e seu inventário precisa estar vazio!'
+  material not exists: '%tag% <red>Este não é um material de bloco válido.'
+  clan war invited noempty inventory: '%tag% <red>A guerra não pode ser aceita porque o jogador que enviou mudou o inventário.'
+  clan war invite noempty inventory: '%tag% <red>O administrador do clan não pode aceitar a guerra porque você alterou seu inventário.'
+  clan war in cooldown: '%tag% <red>Um ou ambos os clans participaram de guerras recentemente e precisam esperar para participar de outra guerra. O tempo entre as guerras é %sec% segundos'
+  clan war win: '%tag% <yellow>O Clan <aqua>%clanwin% <yellow>ganhou a guerra contra <aqua>%clanlose%<yellow> com %clanlives_size% <yellow>membros vivos.'
+  clan war disabled: '%tag% <red>Este clan desligou o recebimento de guerras.'
+  clan war invite already invited: '%tag% <red>Já existe um convite do seu clan ou outro em andamento para este clan, aguarde e tente novamente!'
+  clan war invite error: '%tag% <red>Ocorreu um erro ao enviar o desafio!'
+  clan war invite moderation offline: '%tag% <red>Não há moderadores ou Lider online para aceitar o desafio.'
+  clan war invite sended: '%tag% <green>Convite enviado, aguarde até que o clan aceite ou recuse.'
+  clan war invite not found: '%tag% <red>Não ha convites para guerras.'
+  clan war invite deny: '%tag% <red>Você negou o convite para a guerra.'
+  clan war invite deny received: '%tag% <red>O outro clan negou o desafio para a guerra.'
+  clan war invite expired: '%tag% <red>O convite para a guerra expirou!'
+  clan war left player: '%tag% <yellow>O jogador <aqua>%player% <yellow>saiu da guerra, <aqua>%clanall_joined_players%<gray>/<aqua>%max% <yellow>restantes.'
+  clan war send to: '%tag% <green>O Clan <aqua>%clan1% <green>desafiou o clan <aqua>%clan2% <green>para a guerra, aguardando...'
+  clan war send accepted: '%tag% <green>O clan <aqua>%clan2% <green>aceitou o desafio pata guerra contra <aqua>%clan1% <green>, a batalha comecará em breve!'
+  clan war send danied: '%tag% <red>O clan %clan2% <red>não aceitou o desafio para a guerra contra <aqua>%clan1% <red>.'
+  clan war send started: '%tag% <green>A guerra entre os clans <aqua>%clan1% <green>e <aqua>%clan1% <green>começou.'
+  clan war send ending: '%tag% <green>A guerra entre os clans <aqua>%clan1% <green>e <aqua>%clan2% <green>terminou, o vencedor foi o clan <aqua><bold>%clan_tag_winner% <green>.'
+  kits list header: '<light_purple><bold>Lista de kits:'
+  kits list empty: ' <red>- Sem kits para mostrar'
+  kits list format: ' <green>%kit_name% <gray>- <gray>%kit_desc% <gray>- <white>Data: <aqua>%kit_creation_date%'
+  kit not exists: '%tag% <red>Não existe um kit com este nome.'
+  kit already exists: '%tag% <red>Ja existe um kit com este nome.'
+  empty inventory: '%tag% <red>Seu inventário não pode ser vazio.'
+  error character: '%tag% <red>Isto com tem caracteres inválidos.'
+  arena state stoped: <red>Parado.
+  arena state inlobby: <yellow>Aguardando jogadores...
+  arena state started: <yellow>Iniciado!
+  arena state ending: <yellow>Finalizado
+  arena state canceled: <red>Cancelado
+  arena state inwait: <yellow>Aguardando...
+  arena clan empty: <red>Sem clan.
+  arena not found: <dark_red>Arena não encontrada!
+  player teleport arena location: '%tag% <yellow>Você foi teleportado para <aqua>%point%'
+  translate point spawn: <green>Spawn 2
+  translate point lobby: <aqua>Lobby
+  translate point exit: <red>Exit
+  war reason less than 2: Não há jogadores suficientes inscritos para começar.
+  war reason less players difference: Os dois clans precisam corresponder ao número de jogadores!
+  war reason clan not found: Clan não encontrado, talvez tenha sido deletado.
+  war reason nulled: Reação desconhecida.
+  war reason winner: Um dos clan venceu.
+  war max reached: '%tag% <red>O número máximo de jogadores para o seu clan já foi atingido.'
+  player already in war: '%tag% <red>Você já esta participando de uma guerra!'
+  check wand: '%tag% <red>Você precisa marcar os pontos antes de criar a região/arena.'
+  region marked point: '%tag% <yellow>Ponto <aqua>#%point_number% <yellow>marcado em <aqua>%location%'
+  header help: '<green><bold>Comandos administrativos de guerra:'
+GUI:
+  War war_amount title: <blue><bold>Selecione a quantidade.
+  War war_amount items fill name: ' '
+  War war_amount items fill lore: [
+    ]
+  War war_amount items back name: <green>Clique para voltar
+  War war_amount items back lore:
+  - ' '
+  - ' <yellow>Clique para voltar ao início.'
+  War war_amount items select name: <green>%amount%
+  War war_amount items select lore:
+  - ' '
+  - ' <yellow>Clique para selecionar'
+  War war_select_clan title: <blue><bold>Selecione o Clan.
+  War war_select_clan items fill name: ' '
+  War war_select_clan items fill lore: [
+    ]
+  War war_select_clan items previous name: <green>Página anterior
+  War war_select_clan items previous lore:
+  - ' '
+  - ' <yellow>Clique para ir a página anterior.'
+  # %player%, nicknames or base64Textures
+  War war_select_clan items previous texture: ''
+  War war_select_clan items next name: <green>Próxima página
+  War war_select_clan items next lore:
+  - ' '
+  - ' <yellow>Clique para ir a próxima página.'
+  War war_select_clan items back name: <green>Clique para voltar
+  War war_select_clan items back lore:
+  - ' '
+  - ' <yellow>Clique para voltar ao início.'
+  War war_select_clan items select name: <aqua>%uclans_tag_color%
+  War war_select_clan items select lore:
+  - ' '
+  - ' <white>Clan: <aqua>%uclans_tag_color%'
+  - ' <white>Lider: <aqua>%uclans_leader%'
+  - ' <white>Online: <aqua>%uclans_count_onlinemembers%'
+  - ' '
+  - ' <yellow>Clique para selecionar'
+  War war_select_arena title: <blue><bold>Selecione a arena.
+  War war_select_arena items fill name: ' '
+  War war_select_arena items fill lore: [
+    ]
+  War war_select_arena items previous name: <green>Página anterior
+  War war_select_arena items previous lore:
+  - ' '
+  - ' <yellow>Clique para ir a página anterior.'
+  War war_select_arena items next name: <green>Próxima página
+  War war_select_arena items next lore:
+  - ' '
+  - ' <yellow>Clique para ir a próxima página.'
+  War war_select_arena items back name: <green>Clique para voltar
+  War war_select_arena items back lore:
+  - ' '
+  - ' <yellow>Clique para voltar ao início.'
+  War war_select_arena items select name: <green>%arena_name%
+  War war_select_arena items select lore:
+  - ' '
+  - ' <aqua>%arena_desc%'
+  - ' <yellow>Clique para selecionar.'
+  War war_select_kit title: <blue><bold>Selecione o modo de Kit..
+  War war_select_kit:
+    items fill name: ' '
+    items fill lore: [
+      ]
+  War war_select_kit items previous name: <green>Página anterior
+  War war_select_kit items previous lore:
+  - ' '
+  - ' <yellow>Clique para ir a página anterior.'
+  War war_select_kit items next name: <green>Próxima página
+  War war_select_kit items next lore:
+  - ' '
+  - ' <yellow>Clique para ir a próxima página.'
+  War war_select_kit items back name: <green>Clique para voltar
+  War war_select_kit items back lore:
+  - ' '
+  - ' <yellow>Clique para voltar ao início.'
+  War war_select_kit items nokit name: <red>NÃO USAR KIT.
+  War war_select_kit items nokit lore:
+  - ' '
+  - ' <yellow> Click to send the challenge'
+  - <yellow>with player items.
+  War war_select_kit items yeskit name: <green>SIM, USAR KIT.
+  War war_select_kit items yeskit lore:
+  - ' '
+  - ' <yellow>Clique para abrir o seletor de kits '
+  - ' '
+  - <red><bold> O inventário de todos
+  - <red><bold> precisarão estar vazios!
+  War war_select_kit_list title: <blue><bold>Selecione o Kit.
+  War war_select_kit_list items fill name: ' '
+  War war_select_kit_list items fill lore: [
+    ]
+  War war_select_kit_list items previous name: <green>Página anterior
+  War war_select_kit_list items previous lore:
+  - ' '
+  - ' <yellow>Clique para ir a página anterior.'
+  War war_select_kit_list items next name: <green>Próxima página
+  War war_select_kit_list items next lore:
+  - ' '
+  - ' <yellow>Clique para ir a próxima página.'
+  War war_select_kit_list items back name: <green>Clique para voltar
+  War war_select_kit_list items back lore:
+  - ' '
+  - ' <yellow>Clique para voltar ao início.'
+  War war_select_kit_list items select name: <green>%kit_name%
+  War war_select_kit_list items select lore:
+  - ' '
+  - ' <gray>Desc: <aqua>%kit_desc%'
+  - ' <gray>Criação: <aqua>%kit_creation_date%'
