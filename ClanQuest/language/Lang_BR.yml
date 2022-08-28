@@ -1,0 +1,107 @@
+COMUM:
+  you player has no clan: '%tag% <red>Você não tem um clan, crie um ou seja membro de um clan.'
+  gui error: '%tag% <red>Este menu contem um erro e não pode ser aberto.'
+  do not shift: '%tag% <red>Não use Shift nas missões.'
+  empty whitelist: <red>Vazio
+  disabled function: '%tag% <red>Esta função esta desligada ou desabilitada.'
+  week plus: 1 semana+
+  disabled world quest: '%tag% <red>Você não pode usar missões neste mundo.'
+  command by player: '%tag% <red>Este comando deve ser usado por um jogador.'
+GUI:
+   
+  #QUEST GUI MESSAGES
+  quest home_quest title: <blue>Missões <gray>| %uclans_tag_color%
+  quest home_quest items fill name: ' '
+  quest home_quest items fill2 name: ' '
+  quest home_quest items daily name: ' <green>Missões diárias'
+  quest home_quest items daily lore:
+  - ''
+  - ' <yellow>Clique para abrir.'
+  quest home_quest items once name: ' <green>Todas as Missões'
+  quest home_quest items once lore:
+  - ''
+  - ' <yellow>Clique para abrir.'
+  quest home_quest items back name: ' <green>Voltar'
+  quest home_quest items back lore:
+  - ''
+  - ' <yellow>Clique para voltar.'
+  quest home_list title: <blue>Missões <gray>| %uclans_tag_color%
+  quest home_list items fill name: ' '
+  quest home_list items course name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items course lore:
+  - ''
+  - ' <gold>Sua missão atual!'
+  - ''
+  - ' <white>Tipo: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Nome: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Total: <aqua>%uclans_playerquest_earned%<gray>/<aqua>%uclans_quest_mission_total:{QUEST}%'
+  - ' <white>Expira: <aqua>%uclans_playerquest_expires_time_left% <gray>(%uclans_playerquest_expires%)'
+  - ' <white>Missão: <aqua>%uclans_quest_missions:{QUEST}%'
+  - ' <gray>- %uclans_quest_whitelist:{QUEST}%'
+  - ''
+  - ' <yellow>Recompensas:'
+  - ' <white>Pontos: <aqua>%uclans_quest_reward_points:{QUEST}%'
+  - ' <white>Exp: <aqua>%uclans_quest_reward_exp:{QUEST}%'
+  - ' <white>Dinheiro: <green>%uclans_money_currency%%uclans_quest_reward_money:{QUEST}%'
+  - ''
+  - ' <yellow>Clique para abandonar!'
+  quest home_list items course_other name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items course_other lore:
+  - ''
+  - ' <red>Em progresso por outro jogador!'
+  - ''
+  - ' <white>Tipo: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Nome: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Missão: <aqua>%uclans_quest_missions:{QUEST}%'
+  - <gray>- <aqua>%uclans_quest_whitelist:{QUEST}%
+  - ''
+  - ' <yellow>Recompensas:'
+  - ' <white>POntos: <aqua>%uclans_quest_reward_points:{QUEST}%'
+  - ' <white>Exp: <aqua>%uclans_quest_reward_exp:{QUEST}%'
+  - ' <white>Dinheiro: <green>%uclans_money_currency%%uclans_quest_reward_money:{QUEST}%'
+  quest home_list items finished name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items finished lore:
+  - ''
+  - ' <dark_red>MISSÃO FINALIZADA'
+  - ''
+  - ' <white>Tipo: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Nome: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Missão: <aqua>%uclans_quest_missions:{QUEST}%'
+  - <gray>- <aqua>%uclans_quest_whitelist:{QUEST}%
+  quest home_list items back name: ' <green>Voltar'
+  quest home_list items back lore:
+  - ''
+  - ' <yellow>Clique para voltar.'
+  quest home_list items next name: ' <green>Próxima página'
+  quest home_list items next lore:
+  - ''
+  - ' <yellow>Clique para ir ao próximo.'
+  quest home_list items previous name: ' <green>Página anterior'
+  quest home_list items previous lore:
+  - ''
+  - ' <yellow>Clique para voltar.'
+ 
+#QUEST MESSAGES
+ 
+QUEST:
+  warning expired title: <red>Expirada!
+  warning expired title sub: <aqua>%uclans_quest_name:{QUEST}%
+  warning expired actionbar: <red>Expirado! <gray>| <aqua>%uclans_quest_name:{QUEST}%
+  warning expired message: '%tag% <red>Sua missão <aqua>%uclans_quest_name:{QUEST}% <red>esta expirada e foi desativada.'
+  warning earned title: <aqua>+%act_amount%
+  warning earned title sub: <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)
+  warning earned actionbar: <aqua>+%act_amount% <gray>| <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)
+  warning earned message: '%tag% <yellow>Você coletou <aqua>+%act_amount% <yellow>em <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)'
+  warning finished title: <aqua>Finalizado!
+  warning finished title sub: <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)
+  warning finished actionbar: <aqua>Finalizado! <gray>| <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)
+  warning finished message: '%tag% <yellow>Você terminou a missão <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)'
+  type daily: <green>Missão diária!
+  type once: <green>MIssão única!
+  this day: ' <red>Este dia.'
+  other player: <red>Outro jogador está fazendo isso!
+  error to start gui: <red>Erro ao iniciar!
+  success to start gui: <green>Missão iniciada, boa sorte!
+  error to remove gui: <red>Erro ao abandonar!
+  success to temove gui: <green>MIssão abandonada!
+  player already started gui: <red>Você ativou a missão!
