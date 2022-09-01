@@ -1,0 +1,10 @@
+COMUM:
+  player donthave clan: '%tag% <red>Este jogador não tem um Clan.'
+  gui error: '%tag% <red>Este menu contem erros e não pode ser aberto.'
+  disabled function: '%tag% <red>Esta função está desligada ou desativada.'
+  chan does not exists: '%tag% <red>Este Clan não existe.'
+  command by player: '%tag% <red>Este comando deve ser usado por um jogador.'
+  no permission: '%tag% <red>Você não tem permissões para isto.'
+  disabled world: '%tag% <red>VocÊ não pode usar o chest neste mundo.'
+  chest colected: '%tag% <green>O baú de morte de %player% foi coletado!'
+  disappears: <dark_red>!! Desaparece ao fechar !!
