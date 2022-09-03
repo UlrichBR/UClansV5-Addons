@@ -1,1 +1,84 @@
-#
+COMUM:
+  player dont have clan: '%tag% <red>This player does not have a clanS.'
+  gui error: '%tag% <red>This menu contains an error and cannot be opened'
+  disabled function: '%tag% <red>This function is turned off or disabled.'
+  chan does not exists: '%tag% <red>This clan does not exist'
+  command by player: '%tag% <red>This command must be used by a player.'
+  no permission: '%tag% <red>You dont have permissions for this.'
+  player deposited money: '%tag% <green>%uclans_money_currency%%amount% <yellow>has been deposited in your account.'
+  player dont have money gui: <red>You need to <green>%uclans_money_currency%%amount%
+  player debited money: '%tag% <yellow>It was debited <green>%amount% <yellow>your account.'
+  disabled world bank: '%tag% <red>You cannot use bank in this world'
+  banner delete error gui: <red>Error deleting!
+  banner delete success gui: <aqua>Successfully deleted!
+  banner delete error: '%tag% <red>An error occurred when deleting.'
+  banner delete success: '%tag% <green>Banner successfully deleted!'
+  banner empty: '%tag% <red>Your Clan has no Banner!'
+  banner empty gui: <red>Your Clan has no Banner!
+  banner empty item: <red>The item must be a banner!
+  banner not acceptable: '%tag% <red>This item is not acceptable as a Clan banner.'
+  banner not acceptable gui: <red>Item is not acceptable.
+  banner not banner: '%tag% <red>The item you are holding must be a banner'
+  banner hand empty: '%tag% <red>You need to be holding an item.'
+  banner upload error gui: <red>Error saving banner.
+  banner upload success gui: <aqua>New banner saved!
+  banner upload success: '%tag% <aqua>The new clan banner has been saved!'
+GUI:
+  Banner banner_home title: <blue><bold>Banner menu
+  Banner banner_home items fill name: ' '
+  Banner banner_home items fill lore: [
+    ]
+  Banner banner_home items fill2 name: ' '
+  Banner banner_home items fill2 lore: [
+    ]
+  Banner banner_home items current name: <green>Current Banner
+  Banner banner_home items current lore:
+  - ' '
+  - ' <yellow>The clan banner is your brand'
+  - <yellow>and your <aqua><bold>NEXUS <yellow>used for land marking!
+  - ''
+  - ' <aqua><bold><< <red>Use the buttons on the sides <aqua><bold>>>'
+  Banner banner_home items upload name: <green>Upload
+  Banner banner_home items upload lore:
+  - ''
+  - ' <yellow>Click to open upload menu.'
+  Banner banner_home items delete name: <green>Delete a Banner
+  Banner banner_home items delete lore:
+  - ''
+  - ' <yellow>Click to delete the current banner.'
+  Banner banner_home items pre name: <green>Pre created banners.
+  Banner banner_home items pre lore:
+  - ''
+  - ' <yellow>Click to open list.'
+  Banner banner_home items back name: <red>Come back
+  Banner banner_home items back lore:
+  - ''
+  - ' <yellow>Click to Come back.'
+  Banner banner_delete title: <red>Confirm delete current banner?
+  Banner banner_delete items fill name: ' '
+  Banner banner_delete items fill lore: [
+    ]
+  Banner banner_delete items confirm name: <green>Confirm
+  Banner banner_delete items confirm lore:
+  - ''
+  - ' <red>Click to confirm.'
+  Banner banner_delete items cancel name: <green>Cancel
+  Banner banner_delete items cancel lore:
+  - ''
+  - ' <yellow>Click to cancel.'
+  Banner banner_upload title: <blue><bold>Banner Upload
+  Banner banner_upload items fill name: ' '
+  Banner banner_upload items fill lore: [
+    ]
+  Banner banner_upload items fill2 name: <red>Place your new banner here!
+  Banner banner_upload items fill2 lore:
+  - ' '
+  - ' <red>Place your new banner here!'
+  Banner banner_upload items back name: <red>Come back
+  Banner banner_upload items back lore:
+  - ''
+  - ' <red>Click to go back.'
+  Banner banner_upload items confirm name: <green>Click to save.
+  Banner banner_upload items confirm lore:
+  - ''
+  - ' <yellow>Click here to save.'
