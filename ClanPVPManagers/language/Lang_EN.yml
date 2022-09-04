@@ -1,0 +1,9 @@
+COMUM:
+  player dont have clan: '%tag% &cThis player does not have a clanS.'
+  gui error: '%tag% &cThis menu contains an error and cannot be opened'
+  disabled function: '%tag% &cThis function is turned off or disabled.'
+  chan does not exists: '%tag% &cThis clan does not exist'
+  command by player: '%tag% &cThis command must be used by a player.'
+  no permission: '%tag% &cYou dont have permissions for this.'
+  clan pvp disabled: '%tag% &cClan PVP is now turned off.'
+  clan allypvp disabled: '%tag% &cPVP between allies is off.'
