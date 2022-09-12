@@ -1,0 +1,23 @@
+COMUM:
+  player dont have clan: '%tag% <red>Este jogador não tem um clan.'
+  you dont have clan: '%tag% <red>Você não tem um clan.'
+  gui error: '%tag% <red>Este menu contem erros e não pode ser aberto'
+  disabled function: '%tag% <red>Esta função esta desligada ou desativada'
+  chan does not exists: '%tag% <red>Este Clan não existe'
+  command by player: '%tag% <red>Este comando deve ser usado por um jogador.'
+  no permission: '%tag% <red>Você não tem permissões para isto.'
+Config:
+  Corpses:
+    catch:
+      message:
+        text:
+        - ' '
+        - <red><bold>!</bold> <yellow>Você capturou o cadaver de <dark_red>%player% <yellow>e recebeu recompensas!<yellow>.
+        - ' '
+      actionbar:
+        text: <red><bold>!</bold> <yellow>Você capturou o cadaver de <dark_red>%player%<yellow>!
+      title:
+        line: '<red>! <dark_red>Capturou'
+        subline: '<yellow>Cadaver de %player%!'
+      bossbar:
+        text: <red><bold>!</bold> <yellow>Você capturou o cadaver de <dark_red>%player%<yellow>! <red>({time})
