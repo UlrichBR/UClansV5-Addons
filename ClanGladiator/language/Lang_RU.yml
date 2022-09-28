@@ -1,0 +1,166 @@
+COMUM:
+  no permission: '%tag% <red>У вас нет разрешений для этого.'
+  header help: '<green><bold>Glad команды:'
+  chan does not exists: '%tag% <red>Этого клана не существует'
+  command by player: '%tag% <red>Эта команда должна быть использована игроком.'
+  not found: <strikethrough>Не найдено
+  none: <strikethrough>Нет
+  arena exists: '%tag% <red>Арена с таким названием уже существует'
+  arena not exists: '%tag% <red>Арены с таким названием не существует, используйте <aqua>/clanglad arena list <red>чтобы увидеть список.'
+  arena not exists player: '%tag% <red>Арены с таким названием не существует.'
+  arena header: '<blue><bold>Список арен:'
+  arena format: ' <green>%num%° <gray>- <aqua>%id% <gray>- <aqua>%status%'
+  arena empty: ' <red>Арен не найдено.'
+  arena status true: ' <green>Включена'
+  arena status false: ' <red>Отключена'
+  arena amount error: '%tag% <red>Количество символов выходит за рамки допустимого.'
+  arena already started: '%tag% <red>На этой арене уже происходит событие.'
+  arena no started: '%tag% <red>На этой арене не происходит никакого события.'
+  arena no enabled: '%tag% <red>Эта арена, похоже, не включена, проверьте статус в <aqua>/clanglad view <arena>'
+  arena already ingame: '%tag% <red>Эта арена уже в игре, вы можете посмотреть ее с помощью /gladiator watch <arena>'
+  arena isnot ingame: '%tag% <red>На данный момент на этой арене не происходит никаких событий.'
+  arena command disabled: '%tag% <red>Эта команда запрещена на Арене Гладиаторов.'
+  arena pvp wait: '%tag% <red>Режим PVP отключен в процессе подготовки.'
+  player donthave clan: '%tag% <red>Вам нужен клан для участия в этом мероприятии.'
+  player isnot atevent: '%tag% <red>Вы не участвуете ни в каких Гладиаторских турнирах.'
+  player isin event: '%tag% <red>Вы уже участвуете в мероприятии'
+  player teleport arena location: '%tag% <yellow>Вы были телепортированы на <aqua>%point%'
+  translate point spawn: <green>Спавн
+  translate point lobby: <aqua>Лобби
+  translate point exit: <red>Выход
+  check wand: '%tag% <red>Вам необходимо отметить точки перед созданием региона/арены.'
+  region marked point: '%tag% <yellow>Точка <aqua>#%point_number% <yellow>был сохранена на <aqua>%location%'
+  material not exists: '%tag% <red>Нет допустимого блока с таким именем.'
+  tag not exists: '%tag% <red>Этот тег еще не был создан в файле конфигурации.'
+  arena reason nulled: Без причины.
+  arena reason less than 2: Недостаточно игроков для старта.
+  arena reason winner: Клан победил.
+  arena reason less players difference: Два клана должны соответствовать по количеству игроков!
+  arena reason clan not found: Клан не найден, возможно, он был удален.
+  arena state stoped: <red>Остановка.
+  arena state inlobby: <yellow>Ожидание игроков...
+  arena state started: <yellow>Началась!
+  arena state ending: <yellow>Окончена
+  arena state canceled: <red>Отменена
+  arena state inwait: <yellow>Ожидание...
+  arena clan empty: <red>Нет клана.
+  arena not found: <dark_red>Арена не найдена!
+  arena event message join: '%tag% <green>Игрок %player% присоединился к событию, осталось: <gray>Кланов: <aqua>%clans%<gray>, Игроков: <aqua>%players%'
+  arena event message leave: '%tag% <red>Игрок %player% вышел из события, осталось: <gray>Кланов: <aqua>%clans%<gray>, Игроков: <aqua>%players%'
+  arena event message death: '%tag% <red>Игрок %player% погиб и покидает событие, осталось в живых: <gray>Кланов: <aqua>%clans%<gray>, Игроков: <aqua>%players%'
+  arena event message waiting: '%tag% <green>Ожидание Игроков и Кланов, в настоящий момент: <gray>Кланов: <aqua>%clans%<gray>, Игроков: <aqua>%players%'
+  arena reward header: '%tag% <green>Награды арены %arena%:'
+  arena reward format: ' <gray>- <aqua>%reward%'
+  arena reward empty: ' <red>Пусто.'
+  arena view header: '%tag% <green>Информации об арене %arena%:'
+  arena view format:
+  - ' <white>Название: <aqua>%arena%'
+  - ' <white>Статус: <aqua>%arena_state%'
+  - ' <white>Включена: <aqua>%arena_enabled%'
+  - ' <white>Описание: <aqua>%arena_desc%'
+  - ' <white>Иконка: <aqua>%arena_material%'
+  - ' <white>Тег: <aqua>%arena_tag%'
+ 
+# COMUM: %clans%, %players%, %arena%, %time%
+# CANCELATIONS: %reason%
+# ENDING: %winner%, %living_members%
+ANNOUNCE:
+  INWAIT:
+    message:
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    - <red>Скоро начнется ГЛАДИАТОРСКОЕ СРАЖЕНИЕ...
+    - <gray>Соберите свой клан и свое снаряжение.
+    - ' '
+    - ' <gray>Арена: <aqua>%arena% <dark_gray>| <gray>Осталось: <aqua>%time% сек.'
+    - ' <gray>Кланов: <aqua>%clans% <dark_gray>| <gray>Игроков: <aqua>%players%'
+    - ' '
+    - ' '
+    - '<click:run_command:"/gladiator join %arena%"><hover:show_text:"<red>Нажмите, чтобы участвовать."><green><bold>[ПРИСОЕДИНИТЬСЯ]</bold></green></hover></click>  <click:run_command:"/gladiator watch %arena%"><hover:show_text:"<red>Нажмите, чтобы наблюдать."><yellow><bold>[НАБЛЮДАТЬ]</bold></yellow></hover></click>  <click:run_command:"/gladiator help"><hover:show_text:"<red>Нажмите, чтобы узнать подробнее."><aqua>[?]</aqua></hover></click>   '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    actionbar: <red><bold>ГЛАДИАТОРСКАЯ <yellow>битва скоро начнётся...
+    title:
+      line: <red>БИТВА ГЛАДИАТОРОВ
+      subline: <aqua>/gladiator join %arena%
+    bossbar: <red><bold>ГЛАДИАТОРСКАЯ</bold> <yellow>битва скоро начнётся... <red>({time})
+  INLOBBY:
+    message:
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    - <red>Набор в ГЛАДИАТОРСКОЕ СРАЖЕНИЕ <gold><bold>ЗАКРЫТ
+    - <gray>У кланов осталось <aqua>%time% сек. <gray>для перегруппировки клана.
+    - ' '
+    - ' <gray>Кланов: <aqua>%clans% <dark_gray>| <gray>Игроков: <aqua>%players%'
+    - ' '
+    - '<click:run_command:"/gladiator watch %arena%"><hover:show_text:"<red>Нажмите, чтобы наблюдать."><yellow><bold>[НАБЛЮДАТЬ]</bold></yellow></hover></click>  <click:run_command:"/gladiator help"><hover:show_text:"<red>Нажмите, чтобы узнать подробнее.."><aqua>[?]</aqua></hover></click>   '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    actionbar: <red><bold>Набор в битву Гладиаторов закрыт!
+    title:
+      line: <red>Битва Гладиаторов
+      subline: <yellow>Набор завершён!
+    bossbar: <red><bold>Набор в битву Гладиаторов закрыт!</bold> <red>({time})
+  STARTED:
+    message:
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    - <red>ГЛАДИАТОРСКОЕ СРАЖЕНИЕ <green><bold>НАЧАЛОСЬ
+    - <gray>Событие началось, и <red><bold>PVP БЫЛО ВКЛЮЧЕНО
+    - <gray>Пусть победит лучшая команда!
+    - ' '
+    - ' <gray>Кланов: <aqua>%clans% <dark_gray>| <gray>Игроков: %players%'
+    - ' '
+    - '<click:run_command:"/gladiator watch %arena%"><hover:show_text:"<red>Нажмите, чтобы наблюдать."><yellow><bold>[НАБЛЮДАТЬ]</bold></yellow></hover></click>  <click:run_command:"/gladiator help"><hover:show_text:"<red>Нажмите, чтобы узнать подробнее.."><aqua>[?]</aqua></hover></click>   '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    actionbar: <red><bold>Битва Гладиаторов началась!
+    title:
+      line: <red>Битва Гладиаторов
+      subline: <yellow>Началась!
+    bossbar: <red><bold>Битва Гладиаторов началась!</bold> <red>({time})
+  ENDING:
+    message:
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    - <red>ГЛАДИАТОРСКОЕ СРАЖЕНИЕ <green><bold>ОКОНЧЕНО
+    - <gray>Победителем стал клан <aqua>%winner%
+    - '<gray>Выживших участников: <aqua>%living_members%'
+    - ''
+    - '<red>У победителей %time% сек. чтобы собрать трофеи!'
+    - ' '
+    - '<click:run_command:"/gladiator help"><hover:show_text:"<red>Нажмите, чтобы узнать подробнее.."><aqua>[?]</aqua></hover></click>   '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    actionbar: <red><bold>Битва Гладиаторов окончена, Победил клан <aqua>%winner%!
+    title:
+      line: <red>Битва Гладиаторов
+      subline: <yellow>Победитель <aqua>%winner%
+    bossbar: <red><bold>Битва Гладиаторов окончена, Победитель <aqua>%winner%! <red>({time})
+  CANCELED:
+    message:
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    - <red>ГЛАДИАТОРСКОЕ СРАЖЕНИЕ <dark_red><bold>ОТМЕНЕНО
+    - '<gray>Причина: <red>%reason%'
+    - ' '
+    - <red><strikethrough>-<gray><strikethrough>---------------------------------------------<red><strikethrough>-
+    - ' '
+    actionbar: <red><bold>Битва Гладиаторов отменена!
+    title:
+      line: <red>Битва Гладиаторов
+      subline: <yellow>Отменена!
+    bossbar: <red><bold>Битва Гладиаторов отменена!</bold> <red>({time})
+  STOPED:
+    message: [
+      ]
+    actionbar: ''
+    title:
+      line: ''
+      subline: ''
+    bossbar: ''
