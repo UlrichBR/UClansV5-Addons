@@ -1,0 +1,236 @@
+COMUM:
+  player dont have clan: '%tag% <red>У этого игрока нет клана.'
+  gui error: '%tag% <red>Это меню содержит ошибку и не может быть открыто'
+  disabled function: '%tag% <red>Эта функция временно отключена.'
+  chan does not exists: '%tag% <red>Этого клана не существует'
+  clan does not nexus: '%tag% <red>У этого клана нет Нексуса.'
+  command by player: '%tag% <red>Эта команда должна быть использована игроком..'
+  no permission: '%tag% <red>У вас нет разрешений для этого.'
+  disabled world: '%tag% <red>Нельзя использовать в этом мире.'
+  disabled region: '%tag% <red>Нельзя использовать в этом регионе.'
+  banner get error: '%tag% <red>Произошла ошибка при получении баннера клана.'
+  banner get error gui: <red>Ошибка баннера!
+  banner get success: '%tag% <green>Баннер клана успешно получен.'
+  banner no clan: '%tag% <red>Этот баннер не принадлежит вашему клану.'
+  land errorclaim: '%tag% <red>Произошла ошибка при присвоении земли.'
+  land hasland: '%tag% <red>У вашего клана уже есть земля.'
+  land successclaim: '%tag% <green>Земля успешно присвоена, используйте <aqua>/clan nexus<green> для управления'
+  land veryclose: '%tag% <red>Есть другая земля, слишком близко к границе.'
+  land nobanner: '%tag% <red>У вашего клана еще не установлен баннер.'
+  nexus is protected: '%tag% <red>Эта земля находится под защитой Нексуса!'
+  nexus min members: '%tag% <red>У этого Нексуса нет достаточного количества онлайн участников, чтобы защитить его.'
+  nexus is nearby: '%tag% <red>Нельзя строить слишком близко к Нексусу!'
+  nexus feed error: '%tag% <red>Произошла ошибка при восстановлении Нексуса.'
+  nexus feed success: '%tag% <green>Нексус восстановил <aqua>%life% <green>HP и <aqua>%amount% блок. было потрачено.'
+  nexus under attack true: <dark_red>ПОД АТАКОЙ!
+  nexus under attack false: <aqua>ВСЕ СПОКОЙНО!
+  nexus under attack check: <red>проверка территории...
+  player teleport dont move: '%tag% <yellow>Телепортация, не двигайтесь %sec% сек.'
+  player teleport moved: '%tag% <red>Вы двинулись и телепортация была отменена!'
+  player teleport true: '%tag% <yellow>Вы были телепортированы!'
+  player teleport false: '%tag% <red>Вы не были телепортированы из-за ошибки!'
+  player no money: '%tag% <red>У вас недостаточно денег.'
+  player no money gui: <red>Недостаточно денег!
+  player error withdraw: '%tag% <red>Произошла ошибка при списании денег с вашего счета.'
+  player error withdraw gui: <red>Ошибка при списании!
+  land build outside: '%tag% <red>Нельзя строить за пределами своей земли!'
+  land build only land: '%tag% <red>Вы можете строить только на своей земле.'
+  land upgrade error: '%tag% <red>Произошла ошибка при улучшении Нексуса, попробуйте снова.'
+  land upgrade error gui: <red>Ошибка улучшения!
+  land uograde success: '%tag% <green>Ваш Нексус успешно улучшен!'
+  land upgrade success gui: <green>Нексус улучшен!
+  land teleport error gui: <red>Ошибка при телепортации!
+  land teleport error: '%tag% <red>Произошла ошибка при телепортации к точке Нексуса.'
+  land teleport error create: '%tag% <red>Произошла ошибка при изменении точки спавна.'
+  land teleport error create gui: <red>Ошибка изменения!
+  land teleport success create: '%tag% <green>Точка спавна было успешно изменена на ваше текущее местоположение.'
+  land teleport success create gui: <green>Точка изменена!
+  nexus deleted by admin: '%tag% <red>Ваш Нексус и земля были удалены Администратором, ваши вещи и дом теперь могут быть незащищены!'
+  nexus attack stoped: '%tag% <aqua>Атака на Нексус вашего клана прекращена, но будьте осторожны, на вас снова могут напасть!'
+  nexus attack stoped bar: <aqua>Атака на Нексус прекращена!
+  nexus attack down: '%tag% <gold>Ваш Нексус был уничтожен и теперь земля уязвима, попытайтесь её защитить!'
+  nexus attack down bar: <gold>Нексус был уничтожен!
+  nexus regenerated: '%tag% <green>Ваш нексус восстановлен и земля снова защищена, временный щит будет активен %shield_time% мин!'
+  nexus regenerated bar: <green>Нексус был восстановлен!
+  nexus under attack: '%tag% <dark_red>Ваш Нексус был атакован, если он будет разрушен, ваша земля будет уязвима, вы должны его защитить!'
+  nexus under attack bar: <dark_red>Нексус под атакой!
+  nexus shield down: '%tag% <gold>Осторожно, защита Нексуса временным щитом была отключена и его снова могут атаковать!'
+  nexus shield down bar: <gold>Временный щит Нексуса отключен!
+  nexus created: '%tag% <green>Нексус клана создан, защищайте его, чтобы он защищал вашу землю!'
+  nexus created bar: <green>Нексус создан!
+  nexus error delete gui: <red>Ошибка удаления!
+  nexus error delete: '%tag% <red>Произошла ошибка при удалении Нексуса, попробуйте снова.'
+  nexus success delete: '%tag% <green>Нексус вашего клана был успешно удалён.'
+  nexus success delete leader: '%tag% <red>Ваш Нексус клана был удалён Лидером или Модератором!'
+  
+  # JOIN AND LEAVE LAND MESSAGES (Use '' to not send, All placeholders from PLACEHOLDERS.txt can be used.)
+  enter title: <blue>Вход на земли
+  enter title sub: <green>%uclans_tag_color%
+  enter actionbar: <blue>Вход на земли <green>%uclans_tag_color%
+  enter message: ''
+  leave title: <red>Выход с земли
+  leave title sub: <green>%uclans_tag_color%
+  leave actionbar: <blue>Выход с земли <green>%uclans_tag_color%
+  leave message: ''
+  land focus title: <dark_red>Вы в прицеле
+  land focus title_sub: <red>Нексус клана %uclans_tag_color%
+  land focus actionbar: <dark_red>Нексус клана %uclans_tag_color% <dark_red>сфокусирован на вас!
+  land focus message: '%tag% <dark_red>Нексус клана %uclans_tag_color% <dark_red>сфокусировался на вас, скоро начнётся атака!'
+  land unfocus title: <red>Вас потерял
+  land unfocus title_sub: <red>Нексус клана %uclans_tag_color%
+  land unfocus actionbar: <yellow>Нексус клана %uclans_tag_color% <yellow>потерял вас!
+  land unfocus message: '%tag% <yellow>Нексус клана %uclans_tag_color% <yellow>потерял вас из виду!'
+  land attack title: <red>Вас атакуют!
+  land attack title_sub: <red>Нексус клана %uclans_tag_color% атакует
+  land attack actionbar: <red>Нексус клана %uclans_tag_color% <red>атакует вас!
+  land attack message: '%tag% <red>Нексус клана %uclans_tag_color% <red>пытается атаковать вас!'
+  header help: '<green>Nexus Админ-команды:'
+  header list: '<green>Список Нексусов:'
+  line list: '<green>%num% <gray>- <green>ID: <aqua>%id% <gray>- <green>Название: <aqua>%name%'
+  empty list: ' <red>- Пусто.'
+GUI:
+   
+  Nexus: ''
+  Nexus home title: <blue>Нексус <gray>| <aqua>%uclans_tag_color%
+  Nexus home items fill name: ' '
+  Nexus home items fill lore: [
+    ]
+  Nexus home items fill2 name: ' '
+  Nexus home items fill2 lore: [
+    ]
+  Nexus home items banner name: <green>Нексус Клана
+  Nexus home items banner lore:
+  - ''
+  - ' <yellow>Информация о Нексусе:'
+  - ''
+  - ' <white>Создан: <aqua>%clannexus_land_creation%'
+  - ' <white>Уровень: <aqua>%clannexus_land_level%'
+  - ' <white>Размер: <aqua>%clannexus_land_size%'
+  - ' <white>HP: <aqua>%clannexus_land_nexus_life%<gray>/<aqua>%clannexus_land_nexus_maxhealth%'
+  - ''
+  - ' <white>Временный щит: <aqua>%clannexus_land_nexus_shield%'
+  Nexus home items teleport name: <green>Настройки спавна
+  Nexus home items teleport lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть.'
+  Nexus home items upgrade name: <green>Улучшение Нексуса
+  Nexus home items upgrade lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть.'
+  Nexus home items life name: <green>Информация о восстановлении
+  Nexus home items life lore:
+  - ''
+  - ' <yellow>Вы можете восстановить Нексус'
+  - ' <yellow>используя <aqua>%clannexus_feed_block%<yellow>, каждый блок'
+  - ' <yellow>восстанавливает <green>%clannexus_feed_amount% <yellow>HP'
+  - ''
+  - ' <yellow>Если у вас в руках более 1 предмета,'
+  - ' <yellow>он попытается использовать как можно'
+  - ' <yellow>больше предметов для восстановления.'
+  Nexus home items remove name: <green>Удалить Нексус
+  Nexus home items remove lore:
+  - ''
+  - ' <red>Если вы удалите Нексус, то'
+  - ' <red>ваша земля будет незащищена!'
+  Nexus home items back name: <red>Вернуться
+  Nexus home items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Nexus delete title: <red>УДАЛИТЬ НЕКСУС?
+  Nexus delete items fill name: ' '
+  Nexus delete items fill lore: [
+    ]
+  Nexus delete items fill2 name: ' '
+  Nexus delete items fill2 lore: [
+    ]
+  Nexus delete items confirm name: <green>Подтвердить
+  Nexus delete items confirm lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы подтвердить.'
+  Nexus delete items cancel name: <green>Отмена
+  Nexus delete items cancel lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы отменить.'
+  Nexus teleport title: <blue>Точка Нексуса <gray>| <aqua>%uclans_tag_color%
+  Nexus teleport items fill name: ' '
+  Nexus teleport items fill lore: [
+    ]
+  Nexus teleport items teleport name: <green>Телепортироваться
+  Nexus teleport items teleport lore:
+  - ''
+  - ' <yellow>Нажмите для телепортации.'
+  Nexus teleport items create name: <yellow>Изменить точку
+  Nexus teleport items create lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы настроить точку'
+  - ' <yellow>появления на ваше местоположение.'
+  - ''
+  - ' <red>Точка появления должна быть на вашей земле!'
+  Nexus teleport items back name: <red>Вернуться
+  Nexus teleport items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Nexus upgrade title: <blue>Улучшение Нексуса <gray>| <green>%clannexus_land_level%
+  Nexus upgrade items fill name: ' '
+  Nexus upgrade items fill2 name: ' '
+  Nexus upgrade items info name: <green>Информация о Нексусе
+  Nexus upgrade items info lore:
+  - ''
+  - ' <yellow>Информация о Нексусе:'
+  - ''
+  - ' <white>Уровень: <aqua>%clannexus_land_level%'
+  - ' <white>Размер: <aqua>%clannexus_land_size%'
+  - ' <white>HP: <aqua>%clannexus_land_nexus_life%<gray>/<aqua>%clannexus_land_nexus_maxhealth%'
+  Nexus upgrade items moneybuy name: <green>Покупка за деньги
+  Nexus upgrade items moneybuy lore:
+  - ''
+  - ' <white>Стоимость: <green>$%price%'
+  - ''
+  - ' <yellow>Улучшения:'
+  - ' <white>HP: <aqua>+%improve_life% <gray>(%improve_maxhealth%)'
+  - ' <white>Размер: <aqua>+%improve_size% <gray>(%improve_maxsize%)'
+  - ''
+  - ' <yellow>Нажмите для покупки.'
+  Nexus upgrade items maxlevel name: <red>Максимальный уровень
+  Nexus upgrade items maxlevel lore:
+  - ''
+  - ' <red>Ваш Нексус на максимальном уровне.'
+  Nexus upgrade items back name: <red>Вернуться
+  Nexus upgrade items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Nexus home_noland title: <red>Нет земель <gray>| <aqua>%uclans_tag_color%
+  Nexus home_noland items fill name: ' '
+  Nexus home_noland items fill2 name: ' '
+  Nexus home_noland items banner name: <green>Баннер Клана
+  Nexus home_noland items banner lore:
+  - ''
+  - ' <yellow>Информация о баннере:'
+  - ''
+  - ' <yellow>Баннер клана используется для'
+  - ' <yellow>создания <aqua>Нексуса <yellow>и защиты'
+  - ' <yellow>земель вашего клана.'
+  - ''
+  - ' <red>Только Лидер может управлять землями!'
+  Nexus home_noland items get name: <green>Получить наземный Баннер
+  Nexus home_noland items get lore:
+  - ''
+  - ' <yellow>Нажмите для выдачи.'
+  Nexus home_noland items back name: <red>Вернуться
+  Nexus home_noland items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Nexus nonexus title: <red>Нет баннера!
+  Nexus nonexus items fill name: ' '
+  Nexus nonexus items fill2 name: ' '
+  Nexus nonexus items banner name: <red>Установить баннер
+  Nexus nonexus items banner lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы установить.'
+  - ''
+  - ' <red>Нексусу вашего клана нужен'
+  - ' <red>установленный баннер клана!'
+  Nexus nonexus items back name: <red>Вернуться
+  Nexus nonexus items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
