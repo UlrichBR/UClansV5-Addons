@@ -1,0 +1,199 @@
+COMUM:
+  player donthave clan: '%tag% <red>Этот игрок не состоит в клане.'
+  gui error: '%tag% <red>Это меню содержит ошибку и не может быть открыто.'
+  disabled function: '%tag% <red>Эта функция отключена.'
+  chan does not exists: '%tag% <red>Этого клана не существует.'
+  command by player: '%tag% <red>Эта команда должна быть использована игроком.'
+  no permission: '%tag% <red>У вас нет разрешений для этого.'
+  clan not found: '%tag% <red>Клана с этим тегом не существует.'
+  clan is your clan: '%tag% <red>Это ваш клан.'
+  clan is ally: '%tag% <red>Этот клан уже является вашим союзником.'
+  player in war: '%tag% <red>Вы участвуете в войне!'
+  this player in war: '%tag% <red>Этот игрок участвует в войне!'
+  war pvp wait: '%tag% <red>PVP отключено в процессе подготовки.'
+  war command disabled: '%tag% <red>Эта команда не может быть использова на войне!'
+  clan player need mod leader: '%tag% <red>Только лидер или модераторы могут обьявить войну!'
+  clan player need mod leader gui: <red>Нужен лидер/модер!.
+  arena exists: '%tag% <red>Арена с таким названием уже существует'
+  arena not exists: '%tag% <red>Нет арены с таким именем, используйте <aqua>/uclans listarenas <red>для просмотра всех арен.'
+  arena not exists player: '%tag% <red>Арены с таким названием не существует.'
+  arena header: '<blue><bold>Список арен:'
+  arena format: ' <green>%num%° <gray>- <aqua>%id% <gray>- <aqua>%status%'
+  arena empty: ' <red>Нет арен.'
+  arena status true: ' <green>Включена'
+  arena status false: ' <red>Выключена'
+  arena amount error: '%tag% <red>Количество выходит за рамки допустимого.'
+  kit nokit: <red>Без комплекта!
+  clan in war: '%tag% <red>Клан на войне!'
+  clan war invite canceled: '%tag% <red>Клан отменил вызов на войну!'
+  clan war invite success cancel: '%tag% <green>Вы успешно отменили вызов!'
+  gui kit empty: '%tag% <red>Доступных комплектов нет.'
+  clan war invite empty inventory: '%tag% <red>На этой войне был выбран кит-набор <aqua>%kit_name% <red>поэтому ваш инвентарь должен быть пустым!'
+  clan war invited noempty inventory: '%tag% <red>Война не может быть принята, потому что отправивший вызов игрок изменил инвентарь.'
+  clan war invite noempty inventory: '%tag% <red>Клан не может принять приглашение на битву, потому что ваш инвентарь должен быть пустым!'
+  clan war in cooldown: '%tag% <red>Один или оба клана недавно пришли с Войны, им нужно подождать, чтобы принять участие в другой войне. Время между Войнами - %sec% сек.'
+  clan war win: '%tag% <yellow>Клан <aqua>%clanwin% <yellow>выиграл бой против <aqua>%clanlose%<yellow>, выжило %clanlives_size% <yellow>участников.'
+  clan war disabled: '%tag% <red>Этот клан отключил получение вызовов на войну.'
+  clan war invite already invited: '%tag% <red>Уже есть вызов от вашего или другого клана для этого клана, подождите и попробуйте еще раз!'
+  clan war invite error: '%tag% <red>Произошла ошибка при отправке запроса!'
+  clan war invite moderation offline: '%tag% <red>В другом клане нет онлайн Лидера или Модераторов.'
+  clan war require min level: '%tag% <red>Ваш клан должен быть как минимум на уровне <aqua>%min%</aqua> <red>чтобы участвовать в войнах.'
+  clan war require min level gui: <red>Мин. уровень <aqua>%min%</aqua><red>!
+  clan war invite min level: '%tag% <red>Другой клан не соответствует минимальному уровню <aqua>%min%</aqua> <red>чтобы участвовать в войнах.'
+  clan war invite min level gui: <red>Мин. уровень соперника <aqua>%min%</aqua><red>!
+  clan war invite sended: '%tag% <green>Вызов брошен, подождите пока другой клан примет решение.'
+  clan war invite not found: '%tag% <red>Не найдено доступных вызовов на войну.'
+  clan war invite deny: '%tag% <red>Вы отклонили вызов на войну.'
+  clan war invite deny received: '%tag% <red>Другой клан отклонил ваш вызов о развязывании войны.'
+  clan war invite expired: '%tag% <red>Срок приглашения на войну истек!'
+  clan war left player: '%tag% <yellow>Игрок <aqua>%player% <yellow>выбыл из войны, <aqua>%clanall_joined_players%<gray>/<aqua>%max% <yellow>осталось.'
+  clan war send to: '%tag% <green>Клан <aqua>%clan1% <green>объявил войну клану <aqua>%clan2%<green>, ожидается ответ...'
+  clan war send accepted: '%tag% <green>Клан <aqua>%clan2% <green>принял вызов <aqua>%clan1% <green>на войну, битва скоро начнется!'
+  clan war send danied: '%tag% <red>Клан %clan2% <red>отказался от участия в войне с кланом <aqua>%clan1%'
+  clan war send started: '%tag% <green>Война между кланами <aqua>%clan1% <green>и <aqua>%clan2% <green>началась!'
+  clan war send ending: '%tag% <green>Война между кланами <aqua>%clan1% <green>и <aqua>%clan2% <green>закончилась, победителем стал клан <aqua><bold>%clan_tag_winner%<green>, поздравляем!'
+  kits list header: '<light_purple><bold>Список комплектов:'
+  kits list empty: ' <red>- Нет доступных комплектов.'
+  kits list format: ' <green>%kit_name% <gray>- <gray>%kit_desc% <gray>- <white>Дата создания: <aqua>%kit_creation_date%'
+  kit not exists: '%tag% <red>Комплекта с таким названием не существует.'
+  kit already exists: '%tag% <red>Уже есть комплект с таким названием.'
+  empty inventory: '%tag% <red>Ваш инвентарь не может быть пустым.'
+  material not exists: '%tag% <red>Нет допустимого предмета с таким именем.'
+  error character: '%tag% <red>Ваша команда содержит недопустимые символы.'
+  arena state stoped: <red>Приостановлена.
+  arena state inlobby: <yellow>Ожидание Игроков...
+  arena state started: <yellow>Начало!
+  arena state ending: <yellow>Окончание..
+  arena state canceled: <red>Отменена.
+  arena state inwait: <yellow>Ожидание...
+  arena clan empty: <red>Арена пуста.
+  arena not found: <dark_red>Арена не найдена!
+  player teleport arena location: '%tag% <yellow>Вы были телепортированы на точку <aqua>%point%'
+  translate point spawn: <green>Спавн
+  translate point lobby: <aqua>Лобби
+  translate point exit: <red>Выход
+  war reason nulled: Причина неизвестна.
+  war reason less than 2: Недостаточно игроков для начала битвы.
+  war reason winner: Клан победил.
+  war reason less players difference: Два клана должны соответствовать по количеству игроков!
+  war reason clan not found: Клан не найден, возможно, он был удален.
+  war max reached: '%tag% <red>Максимальное количество игроков для вашего клана уже достигнуто.'
+  player already in war: '%tag% <red>Вы уже участвуете в войне!'
+  check wand: '%tag% <red>Вам необходимо выделить территорию перед созданием арены.'
+  region marked point: '%tag% <yellow>Точка <aqua>#%point_number% <yellow>была сохранена на <aqua>%location%'
+  header help: '<green><bold>Команды Админа ClanWar:'
+GUI:
+  War war_amount title: <blue><bold>Выберите кол-во игроков.
+  War war_amount items fill name: ' '
+  War war_amount items fill lore: [
+    ]
+  War war_amount items back name: <green>Назад
+  War war_amount items back lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  War war_amount items select name: <green>%amount%
+  War war_amount items select lore:
+  - ' '
+  - ' <yellow>Нажмите для выбора.'
+  War war_select_clan title: <blue><bold>Выберите клан
+  War war_select_clan items fill name: ' '
+  War war_select_clan items fill lore: [
+    ]
+  War war_select_clan items previous name: <green>Пред.
+  War war_select_clan items previous lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  # %player%, nicknames or base64Textures
+  War war_select_clan items previous texture: ''
+  War war_select_clan items next name: <green>Далее
+  War war_select_clan items next lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_clan items back name: <green>Назад
+  War war_select_clan items back lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  War war_select_clan items select name: <aqua>%uclans_tag_color%
+  War war_select_clan items select lore:
+  - ' '
+  - ' <white>Клан: <aqua>%uclans_tag_color%'
+  - ' <white>Лидер: <aqua>%uclans_leader%'
+  - ' <white>Онлайн: <aqua>%uclans_count_onlinemembers%'
+  - ' '
+  - ' <yellow>Нажмите для выбора.'
+  War war_select_clan items wait name: <dark_red>Ожидание кланов...
+  War war_select_clan items wait lore:
+  - ' '
+  - ' <red>Ни один клан не подключен, подождите'
+  - ' <red>пока присоединятся новые кланы...'
+  War war_select_arena title: <blue><bold>Выберите арену
+  War war_select_arena items fill name: ' '
+  War war_select_arena items fill lore: [
+    ]
+  War war_select_arena items previous name: <green>Пред.
+  War war_select_arena items previous lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_arena items next name: <green>Далее
+  War war_select_arena items next lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_arena items back name: <green>Назад
+  War war_select_arena items back lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  War war_select_arena items select name: <green>%arena_name%
+  War war_select_arena items select lore:
+  - ' '
+  - ' <aqua>%arena_desc%'
+  - ' <yellow>Нажмите для выбора.'
+  War war_select_kit title: <blue><bold>Выберите режим
+  War war_select_kit:
+    items fill name: ' '
+    items fill lore: [
+      ]
+  War war_select_kit items previous name: <green>Пред.
+  War war_select_kit items previous lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_kit items next name: <green>Далее
+  War war_select_kit items next lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_kit items back name: <green>Назад
+  War war_select_kit items back lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  War war_select_kit items nokit name: <red>НЕ использовать кит-набор
+  War war_select_kit items nokit lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы отправить вызов'
+  - ' <yellow>с предметами игроков.'
+  War war_select_kit items yeskit name: <green>Использовать кит-набор
+  War war_select_kit items yeskit lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы открыть меню выбора'
+  - ' '
+  - ' <red><bold>Весь инвентарь участников'
+  - ' <red><bold>должен быть пустым!'
+  War war_select_kit_list title: <blue><bold>Выберите комплект
+  War war_select_kit_list items fill name: ' '
+  War war_select_kit_list items fill lore: [
+    ]
+  War war_select_kit_list items previous name: <green>Пред.
+  War war_select_kit_list items previous lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_kit_list items next name: <green>Далее
+  War war_select_kit_list items next lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы перейти.'
+  War war_select_kit_list items back name: <green>Назад
+  War war_select_kit_list items back lore:
+  - ' '
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  War war_select_kit_list items select name: <green>%kit_name%
+  War war_select_kit_list items select lore:
+  - ' '
+  - ' <gray>Описание: <aqua>%kit_desc%'
+  - ' <gray>Дата создания: <aqua>%kit_creation_date%'
