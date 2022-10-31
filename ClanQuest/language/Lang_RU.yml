@@ -1,0 +1,107 @@
+COMUM:
+  you player has no clan: '%tag% <red>У вас нет клана, вы можете вступить в существующий или создать свой.'
+  gui error: '%tag% <red>Это меню содержит ошибку и не может быть открыто'
+  do not shift: '%tag% <red>Не используйте shift в заданиях'
+  empty whitelist: <red>Пусто.
+  disabled function: '%tag% <red>Эта функция временно отключена.'
+  week plus: 1 неделя+
+  disabled world quest: '%tag% <red>Вы не можете использовать задания в этом мире'
+  command by player: '%tag% <red>Эта команда должна быть использована игроком.'
+GUI:
+   
+  #QUEST GUI MESSAGES
+  quest home_quest title: <blue>Меню заданий <gray>| %uclans_tag_color%
+  quest home_quest items fill name: ' '
+  quest home_quest items fill2 name: ' '
+  quest home_quest items daily name: ' <green>Ежедневные задания'
+  quest home_quest items daily lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть.'
+  quest home_quest items once name: ' <green>Все задания'
+  quest home_quest items once lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть.'
+  quest home_quest items back name: ' <green>Назад'
+  quest home_quest items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  quest home_list title: <blue>Задания <gray>| %uclans_tag_color%
+  quest home_list items fill name: ' '
+  quest home_list items course name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items course lore:
+  - ''
+  - ' <gold>Ваше текущее задание!'
+  - ''
+  - ' <white>Тип: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Название: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Всего: <aqua>%uclans_playerquest_earned%<gray>/<aqua>%uclans_quest_mission_total:{QUEST}%'
+  - ' <white>Истекает: <aqua>%uclans_playerquest_expires_time_left% <gray>(%uclans_playerquest_expires%)'
+  - ' <white>Задача: <aqua>%uclans_quest_missions:{QUEST}%'
+  - ' <gray>- %uclans_quest_whitelist:{QUEST}%'
+  - ''
+  - ' <yellow>Награды:'
+  - ' <white>Очков клана: <aqua>%uclans_quest_reward_points:{QUEST}%'
+  - ' <white>Уровней опыта: <aqua>%uclans_quest_reward_exp:{QUEST}%'
+  - ' <white>Валюты: <green>%uclans_money_currency%%uclans_quest_reward_money:{QUEST}%'
+  - ''
+  - ' <yellow>Нажмите, чтобы отказаться.'
+  quest home_list items course_other name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items course_other lore:
+  - ''
+  - ' <red>Выполняется другим игроком!'
+  - ''
+  - ' <white>Тип: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Название: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Задача: <aqua>%uclans_quest_missions:{QUEST}%'
+  - <gray>- <aqua>%uclans_quest_whitelist:{QUEST}%
+  - ''
+  - ' <yellow>Награды:'
+  - ' <white>Очков клана: <aqua>%uclans_quest_reward_points:{QUEST}%'
+  - ' <white>Уровней опыта: <aqua>%uclans_quest_reward_exp:{QUEST}%'
+  - ' <white>Валюты: <green>%uclans_money_currency%%uclans_quest_reward_money:{QUEST}%'
+  quest home_list items finished name: ' <green>%uclans_quest_name:{QUEST}%'
+  quest home_list items finished lore:
+  - ''
+  - ' <dark_red>Задание завершено!'
+  - ''
+  - ' <white>Тип: <aqua>%uclans_quest_type_formated:{QUEST}%'
+  - ' <white>Название: <aqua>%uclans_quest_name:{QUEST}%'
+  - ' <white>Задача: <aqua>%uclans_quest_missions:{QUEST}%'
+  - <gray>- <aqua>%uclans_quest_whitelist:{QUEST}%
+  quest home_list items back name: ' <green>Назад'
+  quest home_list items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  quest home_list items next name: ' <green>Далее'
+  quest home_list items next lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти.'
+  quest home_list items previous name: ' <green>Пред.'
+  quest home_list items previous lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы перейти.'
+ 
+#QUEST MESSAGES
+ 
+QUEST:
+  warning expired title: <red>Время вышло!
+  warning expired title sub: <aqua>%uclans_quest_name:{QUEST}%
+  warning expired actionbar: <red>Время вышло! <gray>| <aqua>%uclans_quest_name:{QUEST}%
+  warning expired message: '%tag% <red>Ваше задание <aqua>%uclans_quest_name:{QUEST}% <red>истекло и было отменено.'
+  warning earned title: <aqua>+%act_amount%
+  warning earned title sub: <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)
+  warning earned actionbar: <aqua>+%act_amount% <gray>| <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)
+  warning earned message: '%tag% <yellow>Вы получили <aqua>+%act_amount% <yellow>за выполнение задания <aqua>%uclans_quest_name:{QUEST}% <gray>(%uclans_playerquest_earned%<gray>/%uclans_quest_mission_total:{QUEST}%)'
+  warning finished title: <aqua>Задание завершено!
+  warning finished title sub: <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)
+  warning finished actionbar: <aqua>Завершено! <gray>| <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)
+  warning finished message: '%tag% <yellow>Вы завершили задание <aqua>%uclans_quest_name:{QUEST}% <gray>(+%uclans_quest_reward_points:{QUEST}%)'
+  type daily: <green>Ежедневное
+  type once: <green>Одноразовое
+  this day: ' <red>Сегодня'
+  other player: <red>Это выполняет другой игрок!
+  error to start gui: <red>Ошибка запуска!
+  success to start gui: <green>Задание запущено!
+  error to remove gui: <red>Ошибка при отказе!
+  success to temove gui: <green>Задание отменено!
+  player already started gui: <red>Уже есть задание!
