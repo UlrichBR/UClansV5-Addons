@@ -1,0 +1,84 @@
+COMUM:
+  player dont have clan: '%tag% <red>Este jugador no tiene clan.'
+  gui error: '%tag% <red>Este menú contiene un error y no se puede abrir'
+  disabled function: '%tag% <red>Esta función está apagada o deshabilitada.'
+  chan does not exists: '%tag% <red>Este clan no existe'
+  command by player: '%tag% <red>Este comando debe ser utilizado por un jugador.'
+  no permission: '%tag% <red>No tienes permisos para esto.'
+  player deposited money: '%tag% <green>%uclans_money_currency%%amount% <yellow>han sido depositado en su cuenta.'
+  player dont have money gui: <red>Necesitas <green>%uclans_money_currency%%amount%
+  player debited money: '%tag% <yellow>Fueron debitados &a%amount% &ede tu cuenta.'
+  disabled world bank: '%tag% <red>No puedes usar el banco en este mundo'
+  banner delete error gui: <red>Error al eliminar!
+  banner delete success gui: <aqua>Eliminado con éxito!
+  banner delete error: '%tag% <red>Ocurrió un error al eliminar.'
+  banner delete success: '%tag% <green>Estandarte eliminado con éxito!'
+  banner empty: '%tag% <red>Tu clan no tiene estandarte!'
+  banner empty gui: <red>Tu clan no tiene estandarte!
+  banner empty item: <red>El artículo debe ser un estandarte!
+  banner not acceptable: '%tag% <red>Este artículo no es aceptable como estandarte de clan.'
+  banner not acceptable gui: <red>El artículo no es aceptable.
+  banner not banner: '%tag% <red>El elemento que está sosteniendo debe ser un estandarte.'
+  banner hand empty: '%tag% <red>Necesitas tener un artículo.'
+  banner upload error gui: <red>Error al guardar el estandarte.
+  banner upload success gui: <aqua>¡Nuevo estandarte guardado!
+  banner upload success: '%tag% <aqua>¡Se ha guardado el nuevo estandarte del clan!'
+GUI:
+  Banner banner_home title: <blue><bold>Menú de Estandarte
+  Banner banner_home items fill name: ' '
+  Banner banner_home items fill lore: [
+    ]
+  Banner banner_home items fill2 name: ' '
+  Banner banner_home items fill2 lore: [
+    ]
+  Banner banner_home items current name: <green>Estandarte Actual
+  Banner banner_home items current lore:
+  - ' '
+  - ' <yellow>El estandarte del clan es tu marca'
+  - <yellow>y tu <aqua><bold>NEXUS <yellow>usado para marcar la tierra!
+  - ''
+  - ' <aqua><bold><< <red>Usa los botones a los lados <aqua><bold>>>'
+  Banner banner_home items upload name: <green>Cargar
+  Banner banner_home items upload lore:
+  - ''
+  - ' <yellow>Click para abrir el menú de carga.'
+  Banner banner_home items delete name: <green>Eliminar Estandarte
+  Banner banner_home items delete lore:
+  - ''
+  - ' <yellow>Click para eliminar el estandarte actual.'
+  Banner banner_home items pre name: <green>Estandartes pre creados
+  Banner banner_home items pre lore:
+  - ''
+  - ' <yellow>Click para abrir lista.'
+  Banner banner_home items back name: <red>Volver
+  Banner banner_home items back lore:
+  - ''
+  - ' <yellow>Click para volver.'
+  Banner banner_delete title: <red>¿Confirmar eliminar el estandarte actual?
+  Banner banner_delete items fill name: ' '
+  Banner banner_delete items fill lore: [
+    ]
+  Banner banner_delete items confirm name: <green>Confirmar
+  Banner banner_delete items confirm lore:
+  - ''
+  - ' <red>Click para confirmar.'
+  Banner banner_delete items cancel name: <green>Cancelar
+  Banner banner_delete items cancel lore:
+  - ''
+  - ' <yellow>Click para cancelar.'
+  Banner banner_upload title: <blue><bold>Carga de Estandarte
+  Banner banner_upload items fill name: ' '
+  Banner banner_upload items fill lore: [
+    ]
+  Banner banner_upload items fill2 name: <red>¡Coloca tu nuevo estandarte aquí!
+  Banner banner_upload items fill2 lore:
+  - ' '
+  - ' <red>Coloca tu nuevo estandarte aquí!'
+  Banner banner_upload items back name: <red>Volver
+  Banner banner_upload items back lore:
+  - ''
+  - ' <red>Click para ir atrás.'
+  Banner banner_upload items confirm name: <green>Click para guardar
+  Banner banner_upload items confirm lore:
+  - ''
+  - ' <yellow>Click aqui para guardar.'
