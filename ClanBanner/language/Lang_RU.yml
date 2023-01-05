@@ -1,0 +1,86 @@
+COMUM:
+  player dont have clan: '%tag% <red>У этого игрока нет клана.'
+  gui error: '%tag% <red>Это меню содержит ошибку и не может быть открыто'
+  disabled function: '%tag% <red>Эта функция временно отключена.'
+  chan does not exists: '%tag% <red>Этого клана не существует'
+  command by player: '%tag% <red>Эта команда должна быть использована игроком.'
+  no permission: '%tag% <red>У вас нет разрешений для этого.'
+  player deposited money: '%tag% <green>%uclans_money_currency%%amount% <yellow>было внесено на ваш счет.'
+  player dont have money gui: <red>На вашем счету должно быть <green>%uclans_money_currency%%amount%
+  player debited money: '%tag% <yellow>С вашего счёта было списано <green>%uclans_money_currency%%amount%'
+  disabled world bank: '%tag% <red>Вы не можете использовать банк в этом мире'
+  banner delete error gui: <red>Ошибка удаления!
+  banner delete success gui: <aqua>Успешно удалено!
+  banner delete error: '%tag% <red>Произошла ошибка при удалении.'
+  banner delete success: '%tag% <green>Баннер успешно удалён!'
+  banner empty: '%tag% <red>У вашего клана нет баннера!'
+  banner empty gui: <red>Нет баннера!
+  banner empty item: <red>Предмет не помещён!
+  banner not acceptable: '%tag% <red>Этот предмет невозможен в качестве баннера!.'
+  banner not acceptable gui: <red>Неправильный предмет!.
+  banner not banner: '%tag% <red>Предмет должен быть флагом!'
+  banner hand empty: '%tag% <red>Вы должны держать в руках флаг!'
+  banner upload error gui: <red>Ошибка сохранения!
+  banner upload success gui: <aqua>Баннер сохранён!
+  banner upload success: '%tag% <aqua>Установлен новый баннер клана!'
+GUI:
+  Banner banner_home title: <blue>Меню Баннера
+  Banner banner_home items fill name: ' '
+  Banner banner_home items fill lore: [
+    ]
+  Banner banner_home items fill2 name: ' '
+  Banner banner_home items fill2 lore: [
+    ]
+  Banner banner_home items current name: <green>Текущий баннер
+  Banner banner_home items current lore:
+  - ' '
+  - ' <yellow>Баннер - это лицо вашего клана,'
+  - ' <yellow>также он используется для Нексуса.'
+  - ' <yellow>Вставьте <aqua>ФЛАГ <yellow>чтобы использовать его как Баннер.'
+  - ''
+  - ' <aqua><bold><< <red>Используйте кнопки по бокам <aqua><bold>>>'
+  Banner banner_home items upload name: <green>Создание баннера
+  Banner banner_home items upload lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть меню.'
+  Banner banner_home items delete name: <green>Удалить баннер
+  Banner banner_home items delete lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы удалить баннер.'
+  Banner banner_home items pre name: <green>Готовые баннеры
+  Banner banner_home items pre lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы открыть список.'
+  Banner banner_home items back name: <red>Назад
+  Banner banner_home items back lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы вернуться.'
+  Banner banner_delete title: <red>Подтверждаете УДАЛЕНИЕ Баннера?
+  Banner banner_delete items fill name: ' '
+  Banner banner_delete items fill lore: [
+    ]
+  Banner banner_delete items confirm name: <green>Подтвердить
+  Banner banner_delete items confirm lore:
+  - ''
+  - ' <red>Нажмите, чтобы подтвердить.'
+  Banner banner_delete items cancel name: <green>Отмена
+  Banner banner_delete items cancel lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы отменить.'
+  Banner banner_upload title: <blue>Загрузка флага
+  Banner banner_upload items fill name: ' '
+  Banner banner_upload items fill lore: [
+    ]
+  Banner banner_upload items fill2 name: <red>Поместите флаг в центр!
+  Banner banner_upload items fill2 lore:
+  - ' '
+  - ' <red>Поместите флаг, чтобы'
+  - ' <red>использовать его как Баннер!'
+  Banner banner_upload items back name: <red>Назад
+  Banner banner_upload items back lore:
+  - ''
+  - ' <red>Нажмите, чтобы вернуться.'
+  Banner banner_upload items confirm name: <green>Сохранить
+  Banner banner_upload items confirm lore:
+  - ''
+  - ' <yellow>Нажмите, чтобы сохранить.'
